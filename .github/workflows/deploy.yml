@@ -1,8 +1,8 @@
   docker run -d \
   --name=amnezia-wg-easy \
   -e LANG=en \
-  -e WG_HOST=<🚨YOUR_SERVER_IP> \
-  -e PASSWORD_HASH=<🚨YOUR_ADMIN_PASSWORD_HASH> \
+  -e WG_HOST=<31.57.158.221> \
+  -e PASSWORD_HASH=<$2a$12$yFUzS0RBE5E27rln6DZjrOzqL5jkb5.fDdZmc6CSgQZ0wRRr14Dja> \
   -e PORT=51821 \
   -e WG_PORT=51820 \
   -v ~/.amnezia-wg-easy:/etc/wireguard \
